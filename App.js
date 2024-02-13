@@ -4,7 +4,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { FirebaseCrashlyticsTypes } from '@react-native-firebase/crashlytics';
 import { firebase } from '@react-native-firebase/crashlytics';
-import firebase from 'react-native-firebase/app';
+import { firebase } from '@react-native-firebase/remote-config';
+
 
 export default function App() {
   useEffect(() => {
